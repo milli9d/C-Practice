@@ -7,7 +7,6 @@
 	Scoped Timer Library , instantiate this in any function to benchmark portions of code
 */
 class SmartTimer {
-
 private:
 	std::chrono::steady_clock::time_point start, end, lap;
 	std::chrono::duration<float> duration, lapduration;

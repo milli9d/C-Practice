@@ -10,11 +10,9 @@ public:
 
 	void push(T obj) {
 		m_Data[++TOP] = T;
-
 	}
 
 	T pop() {
-
 	}
 
 	~StaticQueue() {
@@ -24,7 +22,6 @@ private:
 	int TOP = -1;
 	const int BOTTOM = 0;
 	T m_Data[S];
-
 };
 
 /*	Stack allocated on the Program Stack (static)
@@ -65,7 +62,6 @@ public:
 	}
 
 	~StaticStack() {
-
 		//free(m_Data);
 	}
 

@@ -14,7 +14,6 @@ public:
 
 	// Default Constructor
 	ArrayList() {
-
 		// Allocate memory to store initial capacity elements (WARNING : Unitialized memory)
 		m_Data = (T*)malloc(Capacity * sizeof(T));
 	}
@@ -55,7 +54,6 @@ public:
 
 	// This is expensive takes O(CAPACITY) time
 	void resize(size_t newCap) {
-
 		// If number of elements are greater than new capacity , do not change anything , will add useful funciton here later
 		if (Top > newCap) {
 			return;
@@ -83,5 +81,4 @@ public:
 	void expand() {
 		resize(Capacity + MEM_BLOCK);
 	}
-
 };
