@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Static.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Dynamic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="MilindSTL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Timer.h">
+    <ClInclude Include="Components\Dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

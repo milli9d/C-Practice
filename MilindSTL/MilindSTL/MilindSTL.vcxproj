@@ -150,10 +150,10 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Dynamic.h" />
+    <ClInclude Include="Components\Dynamic.h" />
+    <ClInclude Include="Components\Static.h" />
+    <ClInclude Include="Components\Timer.h" />
     <ClInclude Include="MilindSTL.h" />
-    <ClInclude Include="Static.h" />
-    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

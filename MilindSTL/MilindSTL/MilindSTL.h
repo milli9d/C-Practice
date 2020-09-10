@@ -1,7 +1,5 @@
 #pragma once
 
-#include "Static.h"
-
-#include "Dynamic.h"
-
-#include "Timer.h"
+#include "Components/Static.h"				// Stack Allocated Containers
+#include "Components/Dynamic.h"				// Heap Allocated Containers
+#include "Components/Timer.h"				// SmartTimer Class
