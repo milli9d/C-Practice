@@ -65,7 +65,8 @@ public:
 	}
 
 	~StaticStack() {
-		delete[] this;
+
+		//free(m_Data);
 	}
 
 private:
