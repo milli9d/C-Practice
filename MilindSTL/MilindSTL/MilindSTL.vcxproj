@@ -153,6 +153,8 @@
     <ClInclude Include="Components\Dynamic.h" />
     <ClInclude Include="Components\Static.h" />
     <ClInclude Include="Components\Timer.h" />
+    <ClInclude Include="StaticArray.h" />
+    <ClInclude Include="StaticStack.h" />
     <ClInclude Include="MilindSTL.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

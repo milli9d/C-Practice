@@ -1,28 +1,22 @@
 #include <iostream>
-#include "MilindSTL.h"
 #include <string>
 
-int main()
-{
-	// Some compiler optimisations , (optional)
-	std::ios_base::sync_with_stdio(false);
-	std::cin.tie(NULL);
-	std::cout.tie(NULL);
+#include "MilindSTL.h"
 
-	ArrayList<int> arr;
+int main() {
+  // Some compiler optimisations , (optional)
+  std::ios_base::sync_with_stdio(false);
+  std::cin.tie(NULL);
+  std::cout.tie(NULL);
 
-	SmartTimer timer("Main Process");
+  SmartTimer timer("Main Process");
 
-	timer.lapTime("Check 1");
+  StaticArray<int, 10> arr;
 
-	for (size_t i = 0; i < 5000; i++) {
-		arr.push_back(i);
-	}
+  arr.at(11);
+  timer.lapTime("Begin");
 
-	timer.lapTime("Check 2");
-	for (size_t i = 0; i < arr.size(); i++) {
-		printf("%d\n", arr[i]);
-	}
+  timer.lapTime("Insert 1");
 
-	timer.currentTime("End");
+  timer.lapTime("Insert 2");
 }

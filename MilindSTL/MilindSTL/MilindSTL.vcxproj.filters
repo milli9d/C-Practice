@@ -27,6 +27,12 @@
     <ClInclude Include="Components\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="StaticStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
