@@ -18,17 +18,19 @@ int main()
 	std::cout.tie(NULL);
 
 	ArrayList<int> arr;
-	SmartTimer timer("Main Function");
+
+	SmartTimer timer("Main Process");
+
+	timer.lapTime("Check 1");
 
 	for (size_t i = 0; i < 100; i++) {
 		arr.push_back(i);
 	}
 
-	timer.lapTime("Check 1");
-
+	timer.lapTime("Check 2");
 	for (size_t i = 0; i < arr.size(); i++) {
 		printf("%d\n", arr[i]);
 	}
+	timer.currentTime("End");
 
-	timer.lapTime("Check 2");
 }
