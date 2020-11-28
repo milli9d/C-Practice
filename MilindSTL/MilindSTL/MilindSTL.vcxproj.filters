@@ -15,28 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MilindSTL.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="Components\Dynamic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Components\Static.h">
+    <ClInclude Include="Components\StaticArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\StaticQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\StaticStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Components\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StaticStack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StaticArray.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
