@@ -1,9 +1,9 @@
 # MILIND STL 
-### Dorky name , Cool Implementation
+  Tiny Efficient Implementation of the Standard Template Library (C++).
 
 ### Will keep adding useful features.
 
-# ATTENTION : WORK IN PROGRESS 
+$# ATTENTION : WORK IN PROGRESS 
 
 ### WORKING COMPONENTS:
 
